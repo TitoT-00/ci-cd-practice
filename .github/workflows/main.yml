@@ -31,9 +31,9 @@ jobs:
 
       - name: Build app
         run: npm run build
-deploy:
-  needs: test-and-build
-  runs-on: ubuntu-latest
+  deploy:
+    needs: test-and-build
+    runs-on: ubuntu-latest
 
   steps:
     - name: Deploy to EC2

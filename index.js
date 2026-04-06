@@ -1,1 +1,1 @@
-throw new Error("Test Failure");
+console.log("Test CI/CD ");
